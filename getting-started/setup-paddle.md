@@ -1,3 +1,3 @@
-# Setup Paddle
+# 1. Setup Paddle
 
 TODO

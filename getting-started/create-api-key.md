@@ -1,3 +1,3 @@
-# Create an API key
+# 3. Create an API key
 
 TODO

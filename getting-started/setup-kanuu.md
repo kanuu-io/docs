@@ -1,3 +1,3 @@
-# Setup Kanuu
+# 2. Setup Kanuu
 
 TODO
