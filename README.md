@@ -1,2 +1,5 @@
-# docs
-Repository containing the docs for Kanuu. https://docs.kanuu.io
+# Kanuu
+
+Documentation for kanuu.io
+
+Work in progress...
