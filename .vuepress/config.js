@@ -21,14 +21,28 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['/', 'Introduction'],
-                    //
+                    '/getting-started/setup-paddle',
+                    '/getting-started/setup-kanuu',
+                    '/getting-started/create-api-key',
+                    '/getting-started/redirect-to-kanuu',
+                    '/getting-started/listen-to-paddles-webhooks',
                 ],
             },
             {
-                title: 'Laravel',
-                collapsable: false,
+                title: 'API Reference',
+                collapsable: true,
                 children: [
-                    //
+                    '/api/create-nonce',
+                ],
+            },
+            {
+                title: 'Laravel Package',
+                collapsable: true,
+                children: [
+                    '/laravel/installation',
+                    '/laravel/redirect-to-kanuu',
+                    '/laravel/webhook-helpers',
+                    '/laravel/subscription-boilerplate',
                 ],
             },
         ],
