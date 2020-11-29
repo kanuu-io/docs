@@ -2,7 +2,7 @@
 
 `POST https://kanuu.io/api/nonce`
 
-Create Kanuu redirect URL for the provided identifier using a secure token that can be used only once.
+Creates a Kanuu redirect URL for the provided identifier using a secure token that can be used only once.
 
 --- 
 
@@ -10,11 +10,11 @@ Create Kanuu redirect URL for the provided identifier using a secure token that 
 
 | Attribute | Validation | Description |
 | - | - | - |
-| `identifier` | `required`<br><br>`string` | A unique identifier of your billable entity.<br><br>*For example, if you are creating subscription for users, then this could be your user ID. If you are creating subscription for teams, then it could be your team ID.* | 
+| `identifier` | `required`<br><br>`string` | A unique identifier of your billable entity.<br><br>*For example, if you are creating subscriptions for users, then this could be your user ID. If you are creating subscriptions for teams, then it could be your team ID.* | 
 
 ### Request
 
-TODO
+Make the request by passing the `identifier` as a data attribute and authenticate your application by providing your API key as a Bearer token.
 
 <code-group>
 <code-block title="Curl" active>
@@ -98,18 +98,25 @@ HttpResponse<String> response = Unirest.post("https://kanuu.io/api/nonce")
 
 ### Response
 
-TODO
+If everything went well, you will receive a `nonce` and a `url` generated using this nounce. You can use this URL to securely redirect your users to Kanuu.
+
+If you've not yet subscribed to Kanuu and reached more than 20 active customers, then you will receive a `402` asking you to subscribe to Kanuu to continue.
 
 <code-group>
 <code-block title="201 Created" active>
-```
-TODO
+```json
+{
+	"nonce": "d3e2c48bb1fb4badfa27fe9a03924207",
+	"url": "https://kanuu.io/manage/acme/d3e2c48bb1fb4badfa27fe9a03924207"
+}
 ```
 </code-block>
 
 <code-block title="402 Payment Required">
-```
-TODO
+```json
+{
+	"message": "Payment Required"
+}
 ```
 </code-block>
 </code-group>
