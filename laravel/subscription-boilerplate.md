@@ -1,3 +1,3 @@
-# Subscripion boilerplate
+# Subscription boilerplate (optional)
 
 TODO
