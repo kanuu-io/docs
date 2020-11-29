@@ -25,4 +25,4 @@ By default, the subscription boilerplate will assume our billable entity is the 
 php artisan kanuu:publish --team
 ```
 
-Note that, with or without that option, you can always tweak the migration and the model to attach it to whatever model you want. This is just a boiletplate to get you started but don’t let that restrict your creativity.
+Note that, with or without that option, you can always tweak the migration and the model to attach it to whatever model you want. This is just a boilerplate to get you started but don’t let that restrict your creativity.

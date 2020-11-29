@@ -31,7 +31,7 @@ We get it, you don't want to read this entire documentation for every app you're
     -----END PUBLIC KEY-----"
     ```
 
-1. **Publish the subscription boiletplate**. Don't forget to tweak the `Subscription` model and its migration to fit your need.
+1. **Publish the subscription boilerplate**. Don't forget to tweak the `Subscription` model and its migration to fit your need.
     ```sh
     php artisan kanuu:publish
 
