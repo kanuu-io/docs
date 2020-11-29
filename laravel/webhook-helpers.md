@@ -39,6 +39,14 @@ You can now tell Paddle about your new webhook URL so it can start notifying you
 
 ![Paddle's screenshot of the "Alerts and Webhooks" page.](/paddle_webhooks.png)
 
+Finally, since webhooks cannot be CSRF protected, you'll need to disable that route on the `VerifyCsrfToken` middleware.
+
+```php
+protected $except = [
+    'webhooks/*',
+];
+```
+
 ## 3. Add subscription listeners
 
 We're now listening to Paddle's webhook but not doing anything about it. Let's make sure we add our custom logic to these subscription events.
