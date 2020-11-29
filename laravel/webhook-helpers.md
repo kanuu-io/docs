@@ -37,6 +37,7 @@ Kanuu::webhookRoute('webhooks/paddle')
 
 You can now tell Paddle about your new webhook URL so it can start notifying you of new events. Whilst you're there, make sure the 3 subscription webhook events are selected.
 
+
 ![Paddle's screenshot of the "Alerts and Webhooks" page.](/paddle_webhooks.png)
 
 Finally, since webhooks cannot be CSRF protected, you'll need to disable that route on the `VerifyCsrfToken` middleware.

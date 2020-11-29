@@ -44,6 +44,7 @@ module.exports = {
                     '/laravel/redirect-to-kanuu',
                     '/laravel/webhook-helpers',
                     '/laravel/subscription-boilerplate',
+                    '/laravel/add-billing-in-5-min',
                 ],
             },
         ],
