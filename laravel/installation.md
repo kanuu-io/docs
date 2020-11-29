@@ -6,6 +6,11 @@ On top of providing a helpful controller to redirect your users to Kanuu, it com
 
 ![Diagram showing your application between Kanuu and Paddle.](/kanuu_paddle_diagram.png)
 
+Before installing the package, make sure you have followed these steps to set up Paddle and Kanuu:
+- [1. Setup Paddle](/getting-started/setup-paddle)
+- [2. Setup Kanuu](/getting-started/setup-kanuu)
+- [3. Create an API key](/getting-started/create-api-key)
+
 To install Kanuu's Laravel package, you first need to download it using composer:
 
 ```sh
