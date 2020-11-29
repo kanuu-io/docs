@@ -14,6 +14,7 @@ module.exports = {
         editLinkText: 'Edit this page',
         nav: [
             { text: 'Documentation', link: '/' },
+            { text: 'Back to Kanuu', link: 'https://kanuu.io' },
         ],
         sidebar: [
             {

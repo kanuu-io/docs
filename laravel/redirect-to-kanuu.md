@@ -1,6 +1,7 @@
 # Redirect to Kanuu
 
 ## Using the `RedirectToKanuu` controller
+
 The easiest way to redirect your users to Kanuu using the Laravel package is to add the following to your `routes/web` file.
 
 ```php
