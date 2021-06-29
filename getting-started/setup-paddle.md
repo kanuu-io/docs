@@ -8,3 +8,4 @@ Once you have a Paddle account, go to "*Developer Tools > Authentication*" and c
 
 You will need this **API key** and the "**Vendor ID**" (located at the top of the page) [in the next step](./setup-kanuu).
 
+You will also need to set Kanuu up as a Paddle 'Approved Domain'. Head over to "*Checkout > Checkout Settings > Approved Domains*" and you can add `kanuu.io` here. This will allow Kanuu to load Paddle's checkout models for your account.
