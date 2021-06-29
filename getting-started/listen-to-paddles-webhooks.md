@@ -14,7 +14,9 @@ This means, you need to make sure the 3 subscription events: `subscription_creat
 
 ![Paddle's screenshot of the "Alerts and Webhooks" page.](/paddle_webhooks.png)
 
-You can now implement that `POST` endpoint by following Paddle's documentation.
+You can now implement that `POST` endpoint by following [Paddle's documentation](https://developer.paddle.com/webhook-reference/intro).
+
+Kanuu uses the identifer you set in the previous step, [when redirecting your users](getting-started/redirect-to-kanuu), and adds it as a JSON string to the `passthrough` data that Paddle returns in the webhook. Within the JSON string you'll find your identifer with the key `kannu`.
 
 **Congratulations, you're all set!** :tada:
 

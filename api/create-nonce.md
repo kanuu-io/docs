@@ -11,6 +11,8 @@ Creates a Kanuu redirect URL for the provided identifier using a secure token th
 | Attribute | Validation | Description |
 | - | - | - |
 | `identifier` | `required`<br><br>`string` | A unique identifier of your billable entity.<br><br>*For example, if you are creating subscriptions for users, then this could be your user ID. If you are creating subscriptions for teams, then it could be your team ID.* | 
+| `supplemental` | `optional`<br><br>`array` | An array of key:value pairs.<br><br>*This additional set of supplemental information is passed to Paddle as passthrough data which you can then receive within your webhooks.* |
+| `supplemental.*` | `string`<br><br>`max:64` | |
 
 ### Request
 
