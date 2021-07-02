@@ -30,6 +30,10 @@ Once verification is complete you'll see a green shield, to confirm you are secu
 
 ### Enable / Disable
 
+::: warning Paddle Approved Domains
+Before enabling your custom domain you'll want to ensure that you have added your custom domain to Paddle's 'Approved Domains' list, which you can find in your Paddle checkout settings. Without this there is a high likelyhook that the Paddle checkout will not succeed.
+:::
+
 Once you see the green shield, you'll be able to enable and disable the custom domain.
 
 Enabling the custom domain, firstly allows access to Kanuu via the custom domain but secondly Kanuu will change the URL in your API response to be that of your custom domain, meaning if you already have a setup using Kanuu, with the API and the `url` then there is nothing more for you to do.
