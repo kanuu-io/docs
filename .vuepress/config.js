@@ -30,6 +30,13 @@ module.exports = {
                 ],
             },
             {
+                title: 'Advanced',
+                collapsable: true,
+                children: [
+                    '/advanced/custom-domains',
+                ],
+            },
+            {
                 title: 'API Reference',
                 collapsable: true,
                 children: [
