@@ -41,6 +41,7 @@ module.exports = {
                 collapsable: true,
                 children: [
                     '/api/create-nonce',
+                    '/api/fetch-subscription',
                 ],
             },
             {
