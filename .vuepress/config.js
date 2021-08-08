@@ -24,15 +24,14 @@ module.exports = {
                     ['/', 'Introduction'],
                     '/getting-started/setup-paddle',
                     '/getting-started/setup-kanuu',
-                    '/getting-started/create-api-key',
-                    '/getting-started/redirect-to-kanuu',
-                    '/getting-started/listen-to-paddles-webhooks',
+                    '/getting-started/integrating-kanuu',
                 ],
             },
             {
                 title: 'Advanced',
                 collapsable: true,
                 children: [
+                    '/advanced/paddle-webhooks',
                     '/advanced/custom-domains',
                 ],
             },
@@ -50,6 +49,7 @@ module.exports = {
                 children: [
                     '/laravel/installation',
                     '/laravel/redirect-to-kanuu',
+                    '/laravel/billable-trait',
                     '/laravel/webhook-helpers',
                     '/laravel/subscription-boilerplate',
                     '/laravel/add-billing-in-5-min',

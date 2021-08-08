@@ -113,8 +113,8 @@ From this endpoint you should always receive a successful response - as long as 
     "is_trialing" => true,
     "is_subscribed" => true,
     "status" => "trialing",
-    "plan_id" => 12345, // Your Paddle plan identifier
-    "subscription_id" => 67890, // Your Paddle subscription identifier
+    "plan_id" => 12345, // Your Paddle plan identifier.
+    "subscription_id" => 67890, // Your Paddle subscription identifier.
 }
 ```
 </code-block>
@@ -125,8 +125,8 @@ From this endpoint you should always receive a successful response - as long as 
     "is_trialing" => false,
     "is_subscribed" => true,
     "status" => "active",
-    "plan_id" => 12345, // Your Paddle plan identifier
-    "subscription_id" => 67890, // Your Paddle subscription identifier
+    "plan_id" => 12345, // Your Paddle plan identifier.
+    "subscription_id" => 67890, // Your Paddle subscription identifier.
 }
 ```
 </code-block>
@@ -137,8 +137,8 @@ From this endpoint you should always receive a successful response - as long as 
     "is_trialing" => false,
     "is_subscribed" => true,
     "status" => "past-due",
-    "plan_id" => 12345, // Your Paddle plan identifier
-    "subscription_id" => 67890, // Your Paddle subscription identifier
+    "plan_id" => 12345, // Your Paddle plan identifier.
+    "subscription_id" => 67890, // Your Paddle subscription identifier.
 }
 ```
 </code-block>
@@ -149,8 +149,8 @@ From this endpoint you should always receive a successful response - as long as 
     "is_trialing" => false,
     "is_subscribed" => false,  // Will remain true until the date they have paid up to.
     "status" => "paused",
-    "plan_id" => 12345, // Your Paddle plan identifier
-    "subscription_id" => 67890, // Your Paddle subscription identifier
+    "plan_id" => 12345, // Your Paddle plan identifier.
+    "subscription_id" => 67890, // Your Paddle subscription identifier.
 }
 ```
 </code-block>
@@ -161,8 +161,8 @@ From this endpoint you should always receive a successful response - as long as 
     "is_trialing" => false,
     "is_subscribed" => false, // Will remain true until the date they have paid up to; see Paddle's webhook cancellation effective date.
     "status" => "canceled",
-    "plan_id" => 12345, // Your Paddle plan identifier
-    "subscription_id" => 67890, // Your Paddle subscription identifier
+    "plan_id" => 12345, // Your Paddle plan identifier.
+    "subscription_id" => 67890, // Your Paddle subscription identifier.
 }
 ```
 </code-block>

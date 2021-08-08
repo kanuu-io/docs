@@ -17,10 +17,7 @@ All you need to do on your application is add a button somewhere in your applica
 Convinced? Follow this super simple tutorial to get started using Paddle and Kanuu:
 - [1. Setup Paddle](/getting-started/setup-paddle)
 - [2. Setup Kanuu](/getting-started/setup-kanuu)
-- [3. Create an API key](/getting-started/create-api-key)
-- [4. Redirect to Kanuu](/getting-started/redirect-to-kanuu)
-- [5. Listen to Paddle's webhooks](/getting-started/listen-to-paddles-webhooks)
-
+- [3. Integrating Kanuu](/getting-started/integrating-kanuu)
 
 ::: tip Using Laravel?
 If your application is built on Laravel, we have a Laravel package to help you get started.
