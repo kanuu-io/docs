@@ -55,6 +55,10 @@ echo $response->getBody();
 
 <code-block title="Laravel">
 ```php
+// Using Kanuu's Laravel package.
+Kanuu::getNonce("42");
+
+// Otherwise.
 $response = Http::withToken("<YOUR_API_KEY>")
     ->asJson()
     ->post("https://kanuu.io/api/nonce", [
