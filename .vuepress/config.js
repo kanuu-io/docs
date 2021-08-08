@@ -52,7 +52,6 @@ module.exports = {
                     '/laravel/billable-trait',
                     '/laravel/webhook-helpers',
                     '/laravel/subscription-boilerplate',
-                    '/laravel/add-billing-in-5-min',
                 ],
             },
         ],

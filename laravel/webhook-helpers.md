@@ -2,6 +2,8 @@
 
 If you're creating a new Laravel application and need to handle Paddle's webhooks, Kanuu's package provides a `HandlePaddleWebhook` controller that can help you get started in no time.
 
+![Diagram showing your application between Kanuu and Paddle.](/kanuu_paddle_diagram.png)
+
 ## 1. Add your Paddle's public key
 
 First, the package will need your Paddle's public key so it can verify the signature of Paddle's webhooks. On your Paddle's account, go to "*Developer Tools > Public Key*" and copy your public key.

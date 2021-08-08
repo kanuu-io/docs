@@ -40,11 +40,11 @@ You can now use that route in your templates to securely redirect to Kanuu.
 </a>
 ```
 
-You're now all set up with Kanuu! :sparkles:
+And that's it! :sparkles:
 
-If you haven't already done it, the next step is to listen to subscription changes using Paddle's webhooks.
+[On the next and final step](./billable-trait), let's see how we can use the `Billable` trait to automatically use and cache Kanuu's Subscription API.
 
-[In the next step](./webhook-helpers), we'll see how this Laravel package can help with that.
+If you'd rather use Paddle's webhooks instead, this Laravel package can help you with that too. Simply [check the "Webhook helpers" page](./webhook-helpers) of this guide.
 
 ## Manually creating redirect URLs
 
