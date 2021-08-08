@@ -87,6 +87,13 @@ In order to make this approach more efficient, Kanuu caches the result of this e
 
 We recommend that you add some caching on your side as well to avoid making API calls every time you need access to a customer's subscription status. If you do, make sure to also flush that cache before redirecting your customer to Kanuu. Note that if you're using [Kanuu's Laravel package](../laravel/installation), we handle all of this for you out-of-the-box.
 
+**Congratulations, you're all set!** :tada:
+
+This is what we've done:
+- Your application now has a "Manage your subscription" button that redirects your customers to Kanuu securely.
+- When your customers interact with Kanuu's UI, they are using Paddle's modals and therefore Paddle is notified of any changes.
+- Your application uses the Subscription API to check whether your customers are subscribed or not.
+
 ## Using Paddle's webhooks
 
 Instead of using the Subscription API, you might want to set up Paddle's webhooks instead. Since Kanuu is using Paddle's SDK directly, anything that happens on Kanuu, will happen on Paddle and therefore, you will be notified via webhooks.
