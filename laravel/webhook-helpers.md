@@ -1,6 +1,6 @@
 # Webhook helpers (optional)
 
-If you're creating a new Laravel application and need to handle Paddle's webhooks, Kanuu's package provides a `HandlePaddleWebhook` controller that can help you get started in no time.
+If you're creating a new Laravel application and need to handle Paddle's webhooks, Kanuu's Laravel package provides a `HandlePaddleWebhook` controller that can help you get started in no time.
 
 ![Diagram showing your application between Kanuu and Paddle.](/kanuu_paddle_diagram.png)
 
@@ -97,4 +97,4 @@ At this point, we've facilitate handling Paddle's webhooks but we still have to 
 
 Since this logic greatly depends on how your application handles billing, you might want to come up with your own models and migrations here. However, Kanuu's Laravel package can help you get started by publishing some boilerplate into your application.
 
-[In the next step](./subscription-boilerplate), we'll see how we can use this package to generate the Subscription boilerplate we need to have billing all set up.
+[In the next page](./subscription-boilerplate), we'll see how we can use this package to generate the Subscription boilerplate we need to have billing all set up.

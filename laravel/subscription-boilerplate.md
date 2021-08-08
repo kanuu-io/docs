@@ -27,9 +27,9 @@ php artisan kanuu:publish --team
 
 Note that, with or without that option, you can always tweak the migration and the model to attach it to whatever model you want. This is just a boilerplate to get you started but don’t let that restrict your creativity.
 
-## Add billing in 5 minutes (summary)
+## Summary using Paddle's webhooks
 
-We get it, you don't want to read this entire documentation for every app you're building. This page provides a quick checklist allowing you to add billing to your Laravel applications in 5 minutes. Let's go!
+This page provides a quick checklist allowing you to add billing to your Laravel applications using Paddle's webhooks in 5 minutes. Let's go!
 
 1. **Setup Paddle and Kanuu**. This requires no code. Follow these quick steps:
     - [1. Setup Paddle](../getting-started/setup-paddle)
