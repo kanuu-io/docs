@@ -24,7 +24,7 @@ In your team settings you'll find a new section for custom domains. Here you can
 
 At this point we need to check your DNS is setup correctly and then issue you with a SSL certificate so your custom domain can be served over `https`. If your DNS records are setup correctly, then this step should only take around 5 minutes.
 
-![Example unverified domain.](/unverified-custom-domain.png)
+![Example unverified domain.](/kanuu_custom_domains.png)
 
 Once verification is complete you'll see a green shield, to confirm you are secured!
 
