@@ -32,7 +32,7 @@ Kanuu::cacheFor(2 * 3600);
 Kanuu::cacheFor(now()->addHours(2));
 ```
 
-Note that, if you're using the provided `RedirectToKanuu` controller — via the `Kanuu::redirectRoute()` route — the cache will automatically be cleared for that identifier as things are likely going to change. If you are not using the `RedirectToKanuu` controller, make sure to flush the key `kanuu.{identifier}` before redirecting your customer to avoid a bad user experience.
+Note that, if you're using the provided `Kanuu::redirect($identifier)` method or the `RedirectToKanuu` controller — via the `Kanuu::redirectRoute()` route — the cache will automatically be cleared for that identifier as things are likely going to change. If you are not using the `Kanuu::redirect` method nor the `RedirectToKanuu` controller, make sure to flush the key `kanuu.{identifier}` before redirecting your customer to avoid a bad user experience.
 
 **And that's it, you're now fully set up to use Kanuu in your Laravel application!** 🥳
 
