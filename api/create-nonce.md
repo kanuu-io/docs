@@ -10,7 +10,8 @@ Creates a Kanuu redirect URL for the provided identifier using a secure token th
 
 | Attribute | Validation | Description |
 | - | - | - |
-| `identifier` | `required`<br><br>`string` | A unique identifier of your billable entity.<br><br>*For example, if you are creating subscriptions for users, then this could be your user ID. If you are creating subscriptions for teams, then it could be your team ID.* | 
+| `identifier` | `required`<br><br>`string` | A unique identifier of your billable entity.<br><br>*For example, if you are creating subscriptions for users, then this could be your user ID. If you are creating subscriptions for teams, then it could be your team ID.* |
+| `email` | `optional`<br><br>`type:email` | An email address for your customer, used to prepopulate the Paddle checkout.<br><br>*This email address is encrypted at rest and only decrypted for your customers' use.* | 
 | `supplemental` | `optional`<br><br>`array`<br><br>`max_length:16` | An array of key:value pairs.<br><br>*This additional set of supplemental information is passed to Paddle as passthrough data which you can then receive within your webhooks.* |
 | `supplemental.*` | `string`<br><br>`max_length:64` | |
 
